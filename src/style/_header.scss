@@ -6,6 +6,6 @@
   border-bottom: 2px solid $border-color;
 
   nav {
-    @include navButton();
+    @include navButton(100px);
   }
 }

@@ -3,7 +3,7 @@
   font-size: $font-size;
 }
 
-@mixin navButton() {
+@mixin navButton($btn_width) {
   display: flex;
 
   > button {
@@ -11,7 +11,7 @@
     background-color: $body-bg;
     border-radius: 15px;
     border-color: $btn-background-color;
-    width: 100px;
+    width: $btn_width;
     margin: auto 10px;
 
     &:active {
