@@ -6,20 +6,6 @@
   border-bottom: 2px solid $border-color;
 
   nav {
-    display: flex;
-
-    > button {
-      color: $btn-background-color;
-      background-color: $body-bg;
-      border-radius: 15px;
-      border-color: $btn-background-color;
-      width: 100px;
-      margin: auto 10px;
-
-      &:active {
-        color: white;
-        background-color: $btn-background-color;
-      }
-    }
+    @include navButton();
   }
 }
