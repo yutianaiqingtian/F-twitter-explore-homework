@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  height: 100vh;
+
+  > form {
+    margin: auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid $border-color;
+    border-radius: 5px;
+    padding: 20px;
+
+    > div {
+      > p {
+        color: white;
+        text-align: center;
+      }
+
+      > input {
+        width: 100%;
+        background-color: $body-bg;
+        border-width: 0px;
+        border-bottom: 2px solid $border-color;
+      }
+    }
+  }
+}
